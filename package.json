@@ -1,0 +1,27 @@
+{
+  "name": "twitter-created-at",
+  "version": "1.0.0",
+  "description": "Display account creation dates on profiles where Twitter doesn't show them",
+  "main": "twitter-created-at.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Beau Gunderson <beau@beaugunderson.com>",
+  "license": "BSD",
+  "dependencies": {
+    "cors": "^2.5.2",
+    "express": "^4.10.4",
+    "moment": "^2.8.4",
+    "request": "^2.48.0",
+    "supervisor": "^0.6.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beaugunderson/twitter-created-at.git"
+  },
+  "bugs": {
+    "url": "https://github.com/beaugunderson/twitter-created-at/issues"
+  },
+  "homepage": "https://github.com/beaugunderson/twitter-created-at"
+}
